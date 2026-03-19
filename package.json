@@ -1,0 +1,21 @@
+{
+  "name": "port-scan-cli",
+  "version": "1.0.0",
+  "description": "Fast TCP port scanner CLI. Scan open ports on any host. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "port-scan": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js localhost 80"
+  },
+  "keywords": ["port", "scan", "scanner", "tcp", "network", "cli", "nmap", "open-ports"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/port-scan-cli"
+  },
+  "homepage": "https://github.com/kszongic/port-scan-cli#readme",
+  "files": ["index.js", "README.md", "LICENSE"]
+}
